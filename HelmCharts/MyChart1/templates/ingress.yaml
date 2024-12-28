@@ -4,7 +4,7 @@ metadata:
   name: ingress-paths
 spec:
   rules:
-  - host: www.{{ .Release.Name }}-service.ru
+  - host: http://www.myapp-service.ru/
     http:
       paths:
       - path: "/"
