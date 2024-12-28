@@ -4,7 +4,7 @@ metadata:
   name: ingress-paths
 spec:
   rules:
-  - host: http://www.myapp-service.ru/
+  - host: www.myapp-service.ru
     http:
       paths:
       - path: "/"
