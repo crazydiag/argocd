@@ -14,3 +14,8 @@ spec:
             name: {{ .Release.Name }}-service
             port:
               number: 80
+status:
+  loadBalancer: 
+    ingress:
+      - hostname:
+          www.myapp-service.ru
